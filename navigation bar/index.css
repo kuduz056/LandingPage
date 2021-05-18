@@ -1,0 +1,222 @@
+body{
+    display:grid;
+    justify-content: center;
+    background-color: #333;
+    text-align:center;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+/* Top*/
+body section#top{
+    background-color: aquamarine;
+    height:450px;
+    background-image: url("pexels-photo-248515.png");
+    background-position: center;
+    color: white;
+    
+    
+}
+section#top button{
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 0.5em 0;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+section#top button:hover{
+    background: #eaeaea;
+    color: #333;
+} 
+section#top h1{
+    font-weight: bold;
+    margin-top: 4.5em;
+    font-size: 20px;
+}
+section#top p{
+    padding:1em 2em;
+}
+
+
+/* Section2*/
+body section#section2{
+    background-color:whitesmoke;
+    padding:3em;
+    display:grid;
+}
+section#section2 div{
+    width:50%;
+  
+    justify-self: center;
+    
+    
+}
+/*section3*/
+body section#section3{
+    background-color: #333;
+    display:grid;
+    padding-top:3em;
+    padding-bottom:3em;
+    margin:0;
+    justify-content: center;
+    overflow-x:auto;
+    
+}
+section#section3 div#webd{
+    background-color: white;
+    padding:17em 3em 3em 3em;
+    background-image: url("pexels-photo-574077.jpeg");
+    width:55%;
+    justify-self:center;
+    align-items: center;
+    background-size: 100% 40% ;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+section#section3 div#mobiled{
+    background-image: url("pexels-photo-261628.jpeg");
+    background-color:white;
+    padding:17em 3em 3em 3em;
+    margin:2em 0em;
+    width:55%;
+    justify-self:center;
+    align-items: center;
+    background-size: 100% 40% ;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+section#section3 div#techm{
+    background-color:white;
+    padding:17em 3em 3em 3em;
+    background-image: url("pexels-photo-265087.jpeg");
+    width:55%;
+    justify-self:center;
+    align-items: center;
+    background-size: 100% 40% ;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+/*section 4*/
+body section#section4{
+    background-color:whitesmoke;
+    padding:3em;
+    display:grid;
+    
+}
+section#section4  p{
+    width:40%;
+  
+    justify-self: center;
+}
+/*section5*/
+body section#section5{
+    background-color: dodgerblue;
+    display:grid;
+    margin: 0;
+}
+section#section5 div#contact,div#about{
+    display:grid;
+}
+
+ section#section5  div#contact p{
+    width:40%;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+   
+
+
+}
+section#section5  div#about p#s{
+    width:40%;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+   
+
+
+}
+
+section#section5 div#contact{
+    padding:4em;
+    background-color: #2690d4;
+    color: white;
+}
+section#section5 div#about{
+    padding:4em;
+    background-color:#333;
+    color: white;
+}
+
+/*footer*/
+body footer{
+    background-color:black;
+    color: white;
+}
+@media (min-width:760px){
+body{
+    
+display: block;
+padding:0;
+margin:0;
+}
+section#top{
+display: block;
+padding-top:30px;
+margin:0;
+}
+section#section2 div#column{
+    display:grid;
+}
+body section#section2 div#column p{
+width: 37%;
+text-align: center;
+column-count: 2;
+column-gap: 2em;
+justify-content: center;
+justify-self: center;
+justify-items: center;
+text-align: center;
+}
+ body section#section3 {
+    display: flex;
+    justify-content:center;
+    
+}
+
+section#section3 div#webd{
+    margin:0 2em;
+    padding:17em 3em 3em 3em;
+    width:10%;
+}
+section#section3 div#mobiled{
+    margin:0 2em;
+    padding:17em 3em 3em 3em;
+    width:10%;
+}
+section#section3 div#techm{
+    margin:0 2em;
+    padding:17em 3em 3em 3em;
+    width:10%;
+}
+ body section#section5{
+display: flex;
+justify-content:center;
+
+
+}
+section#section5 div#contact{
+    width: 50%;
+    justify-content:center;
+}
+section#section5 div#about{
+    width: 50%;
+    justify-content:center;
+}
+}
+
